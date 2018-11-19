@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/Wonik-CMSLab/oliveyoung-promotion-back/issues"
   },
-  "homepage": "https://github.com/Wonik-CMSLab/oliveyoung-promotion-back#readme"
+  "homepage": "https://github.com/Wonik-CMSLab/oliveyoung-promotion-back#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "mysql": "^2.16.0"
+  }
 }
